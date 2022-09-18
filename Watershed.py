@@ -1,6 +1,8 @@
 import cv2 as cv
 import numpy as np
 
+#Watershed
+
 def waterDemo(image):
     print(image.shape)
     # blurred = cv.bilateralFilter(image, 0, 100, 15)
